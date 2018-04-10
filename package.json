@@ -15,6 +15,7 @@
     "eslint-config-cloudreach": "^1.0.0"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
   }
 }
