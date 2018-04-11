@@ -1,8 +1,8 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 app.get('/search', function(req, res) {
-	var result = req.query;
+	const result = req.query;
 
 	res.send(result);
 });
